@@ -7,5 +7,10 @@ module.exports = (bot) => {
                 type: 0
             });
         }
+        bot.webhook.send({
+            title: 'Rem | Loaded!',
+            description: 'Rem has loaded~',
+            color: bot.utils.color
+        });
     });
 }

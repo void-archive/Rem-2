@@ -1,8 +1,7 @@
-class WebhookClient
-{
+class WebhookClient {
     constructor(options = {}) {
-        this._id = options.id;
-        this._token = options.token;
+        this._id = options._id;
+        this._token = options._token;
         this._discordURL = `https://discordapp.com/api/webhooks/${this._id}/${this._token}?wait=true`;
         this.snek = require('snekfetch');
     }

@@ -9,8 +9,10 @@ module.exports = (bot) => {
         const args = msg.content.slice(prefix[0].length).trim().split(/ +/);
         const command = args.shift();
         let cmd = bot.cmds.find((c) => c.name.includes(command) || c.aliases.includes(command));
-
+        
+        if (!cmd) return;
         if (!command) return;
+        
 
         try {
             bot.commandsExecuted++;

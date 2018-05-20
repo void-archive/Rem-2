@@ -15,6 +15,7 @@ class RemClient extends Eris {
         });
         this.messages = 0;
         this.commandsExecuted = 0;
+        this.utils = require('../util/Util');
     }
 
     async start() {
