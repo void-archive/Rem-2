@@ -1,0 +1,17 @@
+{
+    "name": "rembot",
+    "description": "🌺 Rem is a discord bot made in the Eris library.",
+    "version": "0.0.1",
+    "dependencies": {
+        "eris": "0.8.5",
+        "pg": "7.4.3",
+        "sequelize": "4.37.7",
+        "express": "4.16.3",
+        "pug": "2.0.3",
+        "passport": "0.4.0",
+        "passport-discord": "0.1.3",
+        "uuid": "3.2.1",
+        "table": "4.0.3",
+        "snekfetch": "4.0.0"
+    }
+}
