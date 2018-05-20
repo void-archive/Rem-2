@@ -5,7 +5,7 @@ module.exports = {
     aliases: [
         'debug'
     ],
-    execute: (client, msg, args) => {
+    execute(client, msg, args) {
         if (!args[0]) return msg.channel.createMessage('no u');
         return msg.channel.createMessage(args.join(" "));
     }

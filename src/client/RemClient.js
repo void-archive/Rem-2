@@ -13,6 +13,8 @@ class RemClient extends Eris {
             _id: this.config.webhook.ID,
             _token: this.config.webhook.TOKEN
         });
+        this.messages = 0;
+        this.commandsExecuted = 0;
     }
 
     async start() {
