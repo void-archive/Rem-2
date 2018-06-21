@@ -1,6 +1,10 @@
-# Rem [![Discord](https://discordapp.com/api/guilds/442200545604927489/embed.png)](https://discord.gg/PeRR3MY)
-H-hello, I-I am Rem, a discord multipurpose bot made in the [Eris](https://abal.moe/Eris) library.
-> You can invite the public instance of Rem [here](https://discordapp.com/oauth2/authorize?client_id=447229568282132510&scope=bot).
+# Rem
+Hewwo, I'm Rem. A multipurpose Discord bot made in [Eris](https://abal.moe/Eris) by [void](https://github.com/ry0id), [Deoxi/Snarky](https://github.com/deoxidev) + the creator, [August](https://github.com/ohlookitsAugust).
 
-## Commands (None):
-soon:tm:
+## Contributing
+Contributions are always accepted, whether big or small, we appreciate every one of them.
+
+**Contribution guidelines coming soon:tm: when I'm not lazy lul**
+
+# License
+[MIT](https://github.com/ry0id/Rem/blob/master/LICENSE)
