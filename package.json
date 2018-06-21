@@ -1,6 +1,6 @@
 {
     "name": "rembot",
-    "description": "🌺 Rem is a discord bot made in the Eris library.",
+    "description": "🌺 Rem is a Discord bot made in the Eris library.",
     "version": "0.0.1",
     "dependencies": {
         "eris": "0.8.5",
